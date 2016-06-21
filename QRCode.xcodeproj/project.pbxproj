@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C6221B61CF6C5D6002BB026 /* ScanQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6221B31CF6C5D6002BB026 /* ScanQRCodeView.m */; };
-		6C6221B71CF6C5D6002BB026 /* YBCreatQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6221B51CF6C5D6002BB026 /* YBCreatQRCode.m */; };
 		6C6221BA1CF6C661002BB026 /* ReadQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6221B91CF6C661002BB026 /* ReadQRCodeViewController.m */; };
 		6C6221BC1CF6C756002BB026 /* 1464242118.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6221BB1CF6C756002BB026 /* 1464242118.png */; };
-		6C6221BF1CF6C842002BB026 /* YBReadQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6221BE1CF6C842002BB026 /* YBReadQRCode.m */; };
+		6C8A5E4D1D19448B00CD2BB6 /* ScanQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A5E481D19448B00CD2BB6 /* ScanQRCodeView.m */; };
+		6C8A5E4E1D19448B00CD2BB6 /* YBCreatQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A5E4A1D19448B00CD2BB6 /* YBCreatQRCode.m */; };
+		6C8A5E4F1D19448B00CD2BB6 /* YBReadQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A5E4C1D19448B00CD2BB6 /* YBReadQRCode.m */; };
 		6C8CEBF41CF4318100FAA8DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8CEBF31CF4318100FAA8DB /* main.m */; };
 		6C8CEBF71CF4318100FAA8DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8CEBF61CF4318100FAA8DB /* AppDelegate.m */; };
 		6C8CEBFA1CF4318100FAA8DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8CEBF91CF4318100FAA8DB /* ViewController.m */; };
@@ -24,15 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6C6221B21CF6C5D6002BB026 /* ScanQRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanQRCodeView.h; sourceTree = "<group>"; };
-		6C6221B31CF6C5D6002BB026 /* ScanQRCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanQRCodeView.m; sourceTree = "<group>"; };
-		6C6221B41CF6C5D6002BB026 /* YBCreatQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCreatQRCode.h; sourceTree = "<group>"; };
-		6C6221B51CF6C5D6002BB026 /* YBCreatQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCreatQRCode.m; sourceTree = "<group>"; };
 		6C6221B81CF6C661002BB026 /* ReadQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadQRCodeViewController.h; sourceTree = "<group>"; };
 		6C6221B91CF6C661002BB026 /* ReadQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadQRCodeViewController.m; sourceTree = "<group>"; };
 		6C6221BB1CF6C756002BB026 /* 1464242118.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1464242118.png; sourceTree = "<group>"; };
-		6C6221BD1CF6C842002BB026 /* YBReadQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBReadQRCode.h; sourceTree = "<group>"; };
-		6C6221BE1CF6C842002BB026 /* YBReadQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBReadQRCode.m; sourceTree = "<group>"; };
+		6C8A5E471D19448B00CD2BB6 /* ScanQRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanQRCodeView.h; sourceTree = "<group>"; };
+		6C8A5E481D19448B00CD2BB6 /* ScanQRCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanQRCodeView.m; sourceTree = "<group>"; };
+		6C8A5E491D19448B00CD2BB6 /* YBCreatQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCreatQRCode.h; sourceTree = "<group>"; };
+		6C8A5E4A1D19448B00CD2BB6 /* YBCreatQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCreatQRCode.m; sourceTree = "<group>"; };
+		6C8A5E4B1D19448B00CD2BB6 /* YBReadQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBReadQRCode.h; sourceTree = "<group>"; };
+		6C8A5E4C1D19448B00CD2BB6 /* YBReadQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBReadQRCode.m; sourceTree = "<group>"; };
 		6C8CEBEF1CF4318100FAA8DB /* QRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C8CEBF31CF4318100FAA8DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6C8CEBF51CF4318100FAA8DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,17 +61,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6C6221B11CF6C5B2002BB026 /* QRCode */ = {
+		6C8A5E461D19448B00CD2BB6 /* YBQRCode */ = {
 			isa = PBXGroup;
 			children = (
-				6C6221B21CF6C5D6002BB026 /* ScanQRCodeView.h */,
-				6C6221B31CF6C5D6002BB026 /* ScanQRCodeView.m */,
-				6C6221B41CF6C5D6002BB026 /* YBCreatQRCode.h */,
-				6C6221B51CF6C5D6002BB026 /* YBCreatQRCode.m */,
-				6C6221BD1CF6C842002BB026 /* YBReadQRCode.h */,
-				6C6221BE1CF6C842002BB026 /* YBReadQRCode.m */,
+				6C8A5E471D19448B00CD2BB6 /* ScanQRCodeView.h */,
+				6C8A5E481D19448B00CD2BB6 /* ScanQRCodeView.m */,
+				6C8A5E491D19448B00CD2BB6 /* YBCreatQRCode.h */,
+				6C8A5E4A1D19448B00CD2BB6 /* YBCreatQRCode.m */,
+				6C8A5E4B1D19448B00CD2BB6 /* YBReadQRCode.h */,
+				6C8A5E4C1D19448B00CD2BB6 /* YBReadQRCode.m */,
 			);
-			path = QRCode;
+			path = YBQRCode;
 			sourceTree = "<group>";
 		};
 		6C8CEBE61CF4318100FAA8DB = {
@@ -93,7 +93,7 @@
 		6C8CEBF11CF4318100FAA8DB /* QRCode */ = {
 			isa = PBXGroup;
 			children = (
-				6C6221B11CF6C5B2002BB026 /* QRCode */,
+				6C8A5E461D19448B00CD2BB6 /* YBQRCode */,
 				6C8CEBF51CF4318100FAA8DB /* AppDelegate.h */,
 				6C8CEBF61CF4318100FAA8DB /* AppDelegate.m */,
 				6C8CEBF81CF4318100FAA8DB /* ViewController.h */,
@@ -196,13 +196,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C8CEBFA1CF4318100FAA8DB /* ViewController.m in Sources */,
+				6C8A5E4D1D19448B00CD2BB6 /* ScanQRCodeView.m in Sources */,
+				6C8A5E4E1D19448B00CD2BB6 /* YBCreatQRCode.m in Sources */,
 				6C8CEC0E1CF432C200FAA8DB /* CreatQRCodeViewController.m in Sources */,
 				6C8CEBF71CF4318100FAA8DB /* AppDelegate.m in Sources */,
-				6C6221B71CF6C5D6002BB026 /* YBCreatQRCode.m in Sources */,
-				6C6221B61CF6C5D6002BB026 /* ScanQRCodeView.m in Sources */,
 				6C8CEBF41CF4318100FAA8DB /* main.m in Sources */,
 				6C6221BA1CF6C661002BB026 /* ReadQRCodeViewController.m in Sources */,
-				6C6221BF1CF6C842002BB026 /* YBReadQRCode.m in Sources */,
+				6C8A5E4F1D19448B00CD2BB6 /* YBReadQRCode.m in Sources */,
 				6C8CEC0B1CF432AE00FAA8DB /* ScanQRCodeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,6 +9,10 @@
 #import "ScanQRCodeView.h"
 #import <AVFoundation/AVFoundation.h>
 
+
+CGFloat const kScanViewsCaling = 4 / 6;
+
+
 @interface ScanQRCodeView ()
 <
 AVCaptureMetadataOutputObjectsDelegate
@@ -97,7 +101,7 @@ AVCaptureMetadataOutputObjectsDelegate
 - (AVCaptureSession *)session {
 	if (!_session) {
 		_session = [[AVCaptureSession alloc] init];
-		[_session setSessionPreset:([UIScreen mainScreen].bounds.size.height<500)?AVCaptureSessionPreset640x480:AVCaptureSessionPresetHigh];
+		[_session setSessionPreset:([UIScreen mainScreen].bounds.size.height < 500)?AVCaptureSessionPreset640x480:AVCaptureSessionPresetHigh];
 	}
 	return _session;
 }
@@ -128,7 +132,7 @@ AVCaptureMetadataOutputObjectsDelegate
 - (CGRect)scanViewFrame {
 	if (!_scanViewFrame.size.height) {
 		CGSize windowSize = [UIScreen mainScreen].bounds.size;
-		CGSize scanSize = CGSizeMake(windowSize.width*4/6, windowSize.width*4/6);
+		CGSize scanSize = CGSizeMake(windowSize.width* kScanViewsCaling, windowSize.width*kScanViewsCaling);
 		CGRect scanRect = CGRectMake((windowSize.width - scanSize.width)/2, (windowSize.height-scanSize.height)/2, scanSize.width, scanSize.height);
 		_scanViewFrame = scanRect;
 	}

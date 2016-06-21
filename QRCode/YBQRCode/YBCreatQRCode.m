@@ -8,7 +8,7 @@
 
 #import "YBCreatQRCode.h"
 
-const CGFloat scale_extent = 500.0;
+CGFloat const kScaleExtent = 500.0;
 
 @implementation YBCreatQRCode
 
@@ -136,7 +136,7 @@ void ProviderReleaseData (void *info, const void *data, size_t size) {
 + (UIImage *)imageWithQRCode:(CIImage *)ciImage correction:(CorrectionLevelType)level {
 	//获取要输出的Image长宽
 	CGRect extent = CGRectIntegral(ciImage.extent);
-	CGFloat size  = scale_extent;
+	CGFloat size  = kScaleExtent;
 	CGFloat scale = MIN(size/CGRectGetWidth(extent), size/CGRectGetHeight(extent));
 	size_t width  = CGRectGetWidth(extent) * scale;
 	size_t height = CGRectGetHeight(extent) * scale;
